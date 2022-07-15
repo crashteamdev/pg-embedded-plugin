@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>maven-plugin</packaging>
 
     <parent>
         <groupId>dev.crashteam</groupId>
@@ -12,11 +13,11 @@
 
     <groupId>dev.crashteam.maven.plugins</groupId>
     <artifactId>pg-embedded-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>pg-embedded-plugin Maven Mojo</name>
     <description>The plugin starts the embedded PG server</description>
-    <url>https://github.com/valitydev/pg-embedded-plugin</url>
+    <url>https://github.com/crashteamdev/pg-embedded-plugin</url>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
